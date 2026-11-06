@@ -1,6 +1,6 @@
 # 🏍️ Controle de Combustível e Rotas
 
-Uma aplicação robusta e responsiva (PWA) desenvolvida em **Oracle APEX** para a gestão eficiente de turnos, acompanhamento de quilometragem e controlo de despesas com combustível para estafetas e motoboys.
+Uma aplicação robusta e responsiva (PWA) desenvolvida em **Oracle APEX** para a gestão eficiente de turnos, acompanhamento de quilometragem e controle de despesas com combustível para motoboys.
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Conclu%C3%ADdo-success?style=for-the-badge)
 ![Versão](https://img.shields.io/badge/Vers%C3%A3o-1.0-blue?style=for-the-badge)
@@ -18,7 +18,7 @@ Uma aplicação robusta e responsiva (PWA) desenvolvida em **Oracle APEX** para 
 - **📊 Dashboard Dinâmico (Painel Geral):** Visualização em tempo real de KM rodados, total abastecido, custos gerados no dia e um alerta inteligente de segurança contra pane seca.
 - **⏱️ Gestão de Turnos:** Abertura e encerramento de rotas diárias de forma simples, validando automaticamente a quilometragem inicial e final com base no último turno registado.
 - **⛽ Registo de Abastecimentos:** Formulário com cálculos automáticos em JavaScript (preço por litro, distância até ao posto) e upload/download de fotos dos comprovativos (talões).
-- **🛣️ Leitura Rápida de Odómetro:** Lógica de entrada rápida com apenas os 3 últimos dígitos do painel. O sistema calcula automaticamente o total acumulado gerindo as viragens de milhar (Módulo 1000).
+- **🛣️ Leitura Rápida de Odómetro:** Lógica de entrada rápida com apenas os 3 últimos dígitos do painel. O sistema calcula automaticamente o total acumulado gerindo as viragens de kms (Módulo 1000).
 - **🔐 Segurança e Controlo de Acessos:** Controlo total baseado em perfis (Administrador, Contribuidor, Leitor) utilizando a ACL nativa do Oracle APEX.
 
 ## 📱 Estrutura da Aplicação
@@ -27,7 +27,7 @@ Uma aplicação robusta e responsiva (PWA) desenvolvida em **Oracle APEX** para 
 2. **Abertura de Turno (`Página 2`):** Tela de inicialização do trabalho diário, registando o KM de saída e a meta de quilometragem.
 3. **Registrar Abastecimento (`Página 3`):** Tela de inserção de custos, litros, captura de câmara fotográfica em formato Dropzone para guardar os recibos fiscais.
 4. **Acompanhamento de Rota (`Página 4`):** Permite inserir rapidamente a quilometragem durante as entregas para manter a autonomia atualizada.
-5. **Administration (`Páginas 10000+`):** Módulo administrativo nativo para gerir permissões e adicionar novos utilizadores à plataforma.
+5. **Administração (`Páginas 10000+`):** Módulo administrativo nativo para gerir permissões e adicionar novos utilizadores à plataforma.
 
 ## ⚙️ Como Instalar e Testar
 
