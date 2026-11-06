@@ -32,7 +32,7 @@ Uma aplicação robusta e responsiva (PWA) desenvolvida em **Oracle APEX** para 
 ## ⚙️ Como Instalar e Testar
 
 1. Descarregue o ficheiro de exportação da aplicação (`f206685.sql`) disponível neste repositório.
-2. Aceda ao seu espaço de trabalho (Workspace) no **Oracle APEX**.
+2. Acessar ao seu espaço de trabalho (Workspace) no **Oracle APEX**.
 3. Navegue até ao **App Builder** e clique em **Import** (Importar).
 4. Selecione o ficheiro `.sql` e siga as instruções do assistente de instalação.
 5. *Nota:* Certifique-se de compilar as tabelas auxiliares (`MOT_TURNO`, `MOT_ABASTECIMENTO`, `MOT_LEITURA_KM`) no seu *SQL Workshop* caso o export não as inclua automaticamente.
