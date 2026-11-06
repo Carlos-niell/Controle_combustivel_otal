@@ -1,4 +1,4 @@
-# 🏍️ Controle de Combustível e Rotas (Otal)
+# 🏍️ Controle de Combustível e Rotas
 
 Uma aplicação robusta e responsiva (PWA) desenvolvida em **Oracle APEX** para a gestão eficiente de turnos, acompanhamento de quilometragem e controlo de despesas com combustível para estafetas e motoboys.
 
